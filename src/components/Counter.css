@@ -1,0 +1,30 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Group buttons in row */
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Common button style */
+.btn {
+    padding: 10px 15px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+/* Reset button different color */
+.reset {
+    background-color: orange;
+    color: red;
+}
