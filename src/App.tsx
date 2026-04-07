@@ -1,10 +1,14 @@
 
 import './App.css'
 import Counter from './components/Counter'
+import Props from './components/Props'
 function App() {
 
   return (
-      <Counter/>
+    <>
+      <Counter />
+      <Props name='sagar' />
+    </>
   )
 }
 
