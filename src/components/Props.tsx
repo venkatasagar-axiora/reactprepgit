@@ -1,8 +1,10 @@
 import React from "react";
 
-function Props(){
-    return(
-        <h1>Hello Buddi</h1>
-    )
+type props = {
+    name: string;
+}
+
+const Props = ({ name }: props) => {
+    return <h1>Hello {name}</h1>
 }
 export default Props;
