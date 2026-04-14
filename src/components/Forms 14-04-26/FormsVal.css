@@ -1,0 +1,45 @@
+.img-logo {
+    height: 400px;
+    padding: 10px;
+    margin-top: 90px;
+}
+
+h2 {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2::first-letter {
+    color: rgb(100, 56, 186);
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.forms-main {
+    background-color: white;
+    margin-top: 130px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.forms-main input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 56, 186);;
+}
+
+.forms-main button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(100, 56, 186);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
