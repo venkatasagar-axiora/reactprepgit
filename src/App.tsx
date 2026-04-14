@@ -1,6 +1,7 @@
 
 import './App.css'
-import FetchApi from './components/Fetch-10-04-26/FetchApi'
+import List from './components/List 13-04-26/List'
+// import FetchApi from './components/Fetch-10-04-26/FetchApi'
 // import EventHandlinds from './components/09-04-26/EventHandlinds'
 // import Counter from './components/Counter'
 // import Props from './components/Props'
@@ -14,7 +15,8 @@ function App() {
       {/* <Props name='Venkatasagar' /> */}
       {/* <UseStateEvent/> */}
       {/* <EventHandlinds /> */}
-      <FetchApi/>
+      {/* <FetchApi/> */}
+      <List />
     </>
   )
 }
