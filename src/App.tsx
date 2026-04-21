@@ -8,8 +8,8 @@ import './App.css'
 // import Props from './components/Props'
 // import UseStateEvent from './components/09-04-26/UseStateEvent'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import TodoApp from './components/17-04-2026/TodoApp'
-
+// import TodoApp from './components/17-04-2026/TodoApp'
+import SearchApp from './components/20-04-26/SearchApp'
 function App() {
 
   return (
@@ -26,7 +26,8 @@ function App() {
           <Route path='home' element={<FetchApi/>}></Route>
         </Routes>
       </BrowserRouter> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+      <SearchApp />
     </>
   )
 }
