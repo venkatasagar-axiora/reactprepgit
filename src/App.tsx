@@ -23,7 +23,7 @@ function App() {
       {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<FormsVal />}></Route>
-          <Route path='home' element={<FetchApi/>}></Route>
+          <Route path='/home' element={<FetchApi/>}></Route>
         </Routes>
       </BrowserRouter> */}
       {/* <TodoApp /> */}
